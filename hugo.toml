@@ -4,7 +4,7 @@ title = 'Pink Pussy Cats - Live Music'
 theme = 'spectral'
 
 [params]
-fancyTitle = "Pink Pussy Cats<br> <img src='/img/Banner.svg' width='80%' height='80%'/>" # title for frontpage, may include image
+fancyTitle = "Pink Pussy Cats<br> <img src='/img/Banner.png' width='80%' height='80%'/>" # title for frontpage, may include image
 copyright = "PPC"
 description = '''
 Live Cover-Musik made in Spaichingen
