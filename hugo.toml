@@ -82,11 +82,7 @@ enable = true
 img = "img/Band3.jpg"
 title = 'Wir sind'
 body = '''
-Sasa Sepi (Bass)  
-Matthias Butsch (Gesang)  
-Meik Morlock (Schlagzeug)  
-Jörn Hauser (Gitarre)  
-Steffen Scheffler (Keyboard) 
+Sasa Sepi (Bass), Matthias Butsch (Gesang), Meik Morlock (Schlagzeug), Jörn Hauser (Gitarre), Steffen Scheffler (Keyboard) 
 
 Ehemalige:
 Markus Luttmann (Gitarre)
@@ -96,7 +92,7 @@ Markus Luttmann (Gitarre)
 img = "img/PPC_Proberaum.jpg"
 title = 'Social Media'
 body = '''
-{{< youtube id="2P0XxF1_ozo" title="A New Hugo Site in Under Two Minutes" >}}
+{{< youtube id="2P0XxF1_ozo" title="PPC Youtube Channel" >}}
 
 Folgt uns auf [Youtube](https://www.youtube.com/@pinkpussycats5808 "PPC")!
 '''
