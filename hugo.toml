@@ -94,7 +94,7 @@ title = 'Social Media'
 body = '''
 {{< youtube id="2P0XxF1_ozo" title="PPC Youtube Channel" >}}
 
-Folgt uns auf [Youtube](https://www.youtube.com/@pinkpussycats5808 "PPC")!
+Folgt uns auf [Youtube](https://www.youtube.com/@pinkpussycats5808 "PPC") und [Instagram](https://www.instagram.com/bass_man_ppc/)!
 '''
 
 [[params.two.section]]
@@ -106,3 +106,20 @@ Matthias Butsch (+49 174 3040726)
 ##### Technische Fragen
 Jörn Hauser (+49 176 82059964)
 '''
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = false
