@@ -1,36 +1,36 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'Pink Pussy Cats - Live Music'
+title = 'Squared Circle - Live Music'
 theme = 'spectral'
 
 [params]
-fancyTitle = "Pink Pussy Cats<br> <img src='/img/Banner.png' width='80%' height='80%'/>" # title for frontpage, may include image
-copyright = "PPC"
+fancyTitle = "<img src='/img/SC-Logo.png' width='30%' height='30%'/>" # title for frontpage, may include image
+copyright = "Squared Circle"
 description = '''
-Live Cover-Musik made in Spaichingen
+Live Cover-Rock aus dem Kreis Tuttlingen
 
 '''
 #startbuttonText = "Activate"
 startbuttonLink = "#"
 body_is_markdown = true
 #custom_css = "foo.css"
-images = ["img/PPC_black.svg"]
+#images = ["img/PPC_black.svg"]
 
 [[params.menu.main]]
 url = ''
 title = "Home"
 
-[[params.menu.main]]
-url = '/home'
-title = "Events"
+#[[params.menu.main]]
+#url = '/home'
+#title = "Events"
 
 [params.contact]
 enable = false
 title = "Contact"
 body = "Leave us a message."
-phone = "+49 (0) 030 000 000"
+#phone = "+49 (0) 030 000 000"
 address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
-email = "nospam@example.com"
+#email = "joernhauser@mailbox.org"
 subject = "New Submission!"
 formspree_form_id = "example_invalid"
 
@@ -39,18 +39,14 @@ twitter = ""
 mastodon = ""
 github = ""
 facebook = ""
-youtube = "@pinkpussycats5808"
-instagram = "bass_man_ppc"
+#youtube = "@pinkpussycats5808"
+#instagram = "bass_man_ppc"
 dribble = ""
 
 [params.one]
-enable = true
+enable = false
 body= '''
-PPC - Die Haus- und Hofband des Indiacaclubs Spaichingen!
----
-“Anybody can play. The note is only 20 percent.  
-The attitude of the motherfucker who plays it is 80 percent.”  
-Miles Davis
+{{< gallery-slider dir="/img/" >}}
 '''
 
 [params.cta]
@@ -61,48 +57,46 @@ Infos für Techniker und Presse.
 '''
 
 [[params.cta.link]]
-href = "rider/PPC-Stageplan.pdf"
+href = "rider/Squared Circle - TechRider.pdf"
 text = "Tech Rider"
-special = false
-
-[[params.cta.link]]
-href = "press/PressKit.pdf"
-text = "Press (pdf)"
-special = false
-
-[[params.cta.link]]
-href = "press/PPC_PressKit.docx"
-text = "Press (docx)"
 special = false
 
 [params.two]
 enable = true
 
 [[params.two.section]]
-img = "img/Band3.jpg"
+img = "img/2.jpg"
+#title = 'Social Media'
+body = '''
+Keep on rockin'!
+---
+seit über 20 Jahren mit Klassikern von Billy Idol bis ZZTop und eigenen Songs!
+'''
+
+#'''
+#{{< youtube id="2P0XxF1_ozo" title="PPC Youtube Channel" >}}
+#
+#Folgt uns auf [Youtube](https://www.youtube.com/@pinkpussycats5808 "PPC") und [Instagram](https://www.instagram.com/bass_man_ppc/)!
+#'''
+
+[[params.two.section]]
+img = "img/1.jpg"
 title = 'Wir sind'
 body = '''
-Sasa Sepi (Bass), Matthias Butsch (Gesang), Meik Morlock (Schlagzeug), Jörn Hauser (Gitarre), Steffen Scheffler (Keyboard) 
-
-Ehemalige:
-Markus Luttmann (Gitarre)
+- Jan Flaig (Gitarre)
+- Peter Sapski (Gesang)
+- Patrick Borosch (Gesang),
+- Steffen Scheffler (Bass/Keys)
+- Jörn Hauser (Gitarre),
+- Meik Morlock (Schlagzeug)
 '''
 
 [[params.two.section]]
-img = "img/PPC_Proberaum.jpg"
-title = 'Social Media'
-body = '''
-{{< youtube id="2P0XxF1_ozo" title="PPC Youtube Channel" >}}
-
-Folgt uns auf [Youtube](https://www.youtube.com/@pinkpussycats5808 "PPC") und [Instagram](https://www.instagram.com/bass_man_ppc/)!
-'''
-
-[[params.two.section]]
-#img = "img/PPC_Proberaum.jpg"
+#img = ""
 title = 'Kontakt'
 body = '''
 ##### Booking
-Matthias Butsch (+49 174 3040726)  
+Meik Morlock (+49 176 66653672)  
 ##### Technische Fragen
 Jörn Hauser (+49 176 82059964)
 '''
