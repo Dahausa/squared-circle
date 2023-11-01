@@ -148,6 +148,11 @@ input, select, textarea {
 
 	body {
 		background: #2e3842;
+		/*background-image: url("/img/1.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;*/
+		/*background-position: center;*/
+		/*background-size: 40%;*/
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
