@@ -4,11 +4,10 @@ title = 'Squared Circle - Live Music'
 theme = 'spectral'
 
 [params]
-fancyTitle = "<img src='/img/SC-Logo.png' width='50%' height='50%'/>" # title for frontpage, may include image
+fancyTitle = "<img src='/img/SC-Logo.png' width='30%' height='30%'/>" # title for frontpage, may include image
 copyright = "Squared Circle"
 description = '''
 Classic-Rock aus dem Kreis Tuttlingen
-
 '''
 #startbuttonText = "Activate"
 #startbuttonLink = "#"
@@ -46,7 +45,6 @@ dribble = ""
 [params.one]
 enable = false
 body= '''
-We came to rock!
 '''
 
 [params.cta]
@@ -66,12 +64,13 @@ enable = true
 
 [[params.two.section]]
 img = "img/2.jpg"
-#title = 'Social Media'
+title = ""
 body = '''
-Keep on rockin'!
----
-seit über 20 Jahren mit Klassikern von Billy Idol bis ZZTop und eigenen Songs!
-'''
+Squared Circle steht für ehrlichen, erdigen Rock 
+seit über 20 Jahren mit eigenen Songs und Klassikern von Billy Idol bis ZZTop!
+
+> If it's illegal to rock and roll, throw my ass in jail!  
+-Kurt Cobain'''
 
 #'''
 #{{< youtube id="2P0XxF1_ozo" title="PPC Youtube Channel" >}}
