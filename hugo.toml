@@ -82,7 +82,21 @@ seit über 20 Jahren mit eigenen Songs und Klassikern von Billy Idol bis ZZTop!
 img = "img/1.jpg"
 title = 'Wir sind'
 body = '''
-Jan Flaig (Gitarre), Peter Sapski (Gesang), Patrick Borosch (Gesang), Steffen Scheffler (Bass/Keys), Jörn Hauser (Gitarre), Meik Morlock (Schlagzeug)
+(v.l.) Jan Flaig (Gitarre), Peter Sapski (Gesang), Patrick Borosch (Gesang), Steffen Scheffler (Bass/Keys), Jörn Hauser (Gitarre), Meik Morlock (Schlagzeug)
+'''
+
+[[params.two.section]]
+#img = ""
+title = 'Media'
+body = '''
+
+Hier eine Auswahl an Demos eigener Songs:
+| Song |  |
+|------------------|------------------------------------------------|
+| Change your life | {{< audio src="music/Change your life.mp3" >}} |
+| Wheel of fortune | {{< audio src="music/Wheel of fortune.mp3" >}} |
+
+Videos von Gigs gibt es auf [Youtube](https://www.youtube.com/@SquaredCircleRocks "Squared Circle Rock")
 '''
 
 [[params.two.section]]
